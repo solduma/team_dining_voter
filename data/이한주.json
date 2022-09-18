@@ -1,4 +1,7 @@
 {
-    "registered": false,
-    "unavail_dates": []
+    "registered": true,
+    "unavail_dates": [
+    ],
+    "locations": [
+    ]
 }
