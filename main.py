@@ -66,7 +66,7 @@ for f in os.listdir("data"):
 
 is_name_selected = False
 
-st.title('---')
+st.title('회식 투표기')
 
 tab1, tab2, tab3, tab4 = st.tabs(["회식 불가일 및 추천 장소 등록", "일자 투표", "장소 투표", "결과"])
 
