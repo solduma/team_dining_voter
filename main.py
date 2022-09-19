@@ -86,6 +86,10 @@ with tab1:
       end_date = datetime.strptime(data['end_date'], '%Y-%m-%d')
       unavail_dates = p_datum['unavail_dates']
 
+      if st.button("리셋"):
+        reset_json(name)
+
+
       options = st.multiselect(
         data['start_date'] + " - " + data['end_date'] + " 사이의 기간 중 불가능한 날짜를 등록 해 주세요",
         list_dates(start_date, end_date),
