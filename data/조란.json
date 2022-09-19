@@ -1,5 +1,8 @@
 {
     "registered": false,
     "unavail_dates": [],
-    "locations": []
+    "locations": [],
+    "voted": false,
+    "voted_dates": [],
+    "voted_locations": []
 }

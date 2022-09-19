@@ -1,7 +1,8 @@
 {
-    "registered": true,
-    "unavail_dates": [
-    ],
-    "locations": [
-    ]
+    "registered": false,
+    "unavail_dates": [],
+    "locations": [],
+    "voted": false,
+    "voted_dates": [],
+    "voted_locations": []
 }
